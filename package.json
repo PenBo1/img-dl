@@ -1,6 +1,6 @@
 {
-  "name": "imgdl",
-  "displayName": "Imgdl",
+  "name": "img-dl",
+  "displayName": "img-dl",
   "version": "0.0.1",
   "description": "    A lightweight browser extension for effortless image downloading. Save single or multiple images from any webpage with one click, supporting batch downloads for quick and easy collection.",
   "author": "PenBo1",
@@ -47,7 +47,7 @@
     ],
     "browser_specific_settings": {
       "gecko": {
-        "id": "imgdl@example.local"
+        "id": "img-dl@example.local"
       }
     }
   }

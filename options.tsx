@@ -34,7 +34,7 @@ const OptionsPage = () => {
     <div className="min-h-screen bg-bg p-8 text-sm">
       <div className="mx-auto max-w-3xl space-y-6">
         <header>
-          <p className="text-xs uppercase tracking-widest text-muted">Imgdl 设置</p>
+          <p className="text-xs uppercase tracking-widest text-muted">img-dl 设置</p>
           <h1 className="text-2xl font-semibold">下载偏好与主题</h1>
         </header>
 

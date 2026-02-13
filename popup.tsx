@@ -121,7 +121,7 @@ const IndexPopup = () => {
     <div className="app-shell popup-surface flex h-[720px] flex-col">
       <header className="flex items-start justify-between">
         <div className="space-y-1">
-          <p className="text-xs uppercase tracking-[0.3em] text-muted">Imgdl</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-muted">img-dl</p>
           <h1 className="text-xl font-semibold">图片下载中心</h1>
           <p className="text-xs text-muted">自动扫描当前页面资源</p>
         </div>
