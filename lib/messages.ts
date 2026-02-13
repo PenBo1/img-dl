@@ -1,0 +1,5 @@
+export const MSG_SCAN = "IMGDL_SCAN"
+export const MSG_CONVERT = "IMGDL_CONVERT"
+export const MSG_PROGRESS = "IMGDL_PROGRESS"
+export const MSG_START_DOWNLOAD = "IMGDL_START_DOWNLOAD"
+export const MSG_CANCEL = "IMGDL_CANCEL"

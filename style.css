@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f2f1ee;
+  --color-panel: #ffffff;
+  --color-text: #141414;
+  --color-muted: #5f5f5f;
+  --color-border: #e2e0da;
+  --color-accent: #2adb5c;
+  --color-accent-soft: #8fe5a1;
+  --color-danger: #b91c1c;
+}
+
+.dark {
+  --color-bg: #0f1113;
+  --color-panel: #171a1e;
+  --color-text: #e7e7e7;
+  --color-muted: #b0b0b0;
+  --color-border: #2a2f35;
+  --color-accent: #2adb5c;
+  --color-accent-soft: #8fe5a1;
+  --color-danger: #ef4444;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Montserrat", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-shell {
+  min-width: 420px;
+  max-width: 620px;
+}
+
+.popup-surface {
+  padding: 18px;
+  background: radial-gradient(circle at top left, rgba(143, 229, 161, 0.3), transparent 45%),
+    radial-gradient(circle at 30% 10%, rgba(42, 219, 92, 0.25), transparent 40%),
+    var(--color-bg);
+}
